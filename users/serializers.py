@@ -6,7 +6,6 @@ class RelatedUserSerializer(serializers.ModelSerializer):
         model = User
         fields = ("username", "first_name", "last_name", "email", "avatar", "superhost",)
 
-
 class UserSerializer(serializers.ModelSerializer):
     password = serializers.CharField(write_only=True)
 
