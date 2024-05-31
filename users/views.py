@@ -1,6 +1,5 @@
 import jwt
 from django.conf import settings
-from rest_framework.views import APIView
 from django.contrib.auth import authenticate
 from rest_framework.decorators import action, permission_classes
 from rest_framework.viewsets import ModelViewSet
